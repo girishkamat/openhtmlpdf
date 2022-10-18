@@ -1,0 +1,255 @@
+<html lang="EN-GB">
+<head>
+    <title>All-in-one PDF/UA Testcase</title>
+    <meta name="subject" content="PDF/UA all-in-one"/>
+    <meta name="author" content="openhtmltopdf.com team"/>
+    <meta name="description" content="An example containing everything for easy testing"/>
+    <style>
+        body {
+          font-family:Arial;
+          font-size: 16px;
+        }
+        body {
+          margin: 0;
+        }
+        * {
+          box-sizing: border-box;
+        }
+        *:before,
+        *:after {
+          box-sizing: border-box;
+        }
+        .container-fluid {
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        .row {
+          margin-right: -15px;
+          margin-left: -15px;
+        }
+        .container-fluid:before,
+        .container-fluid:after,
+        .row:before,
+        .row:after {
+          display: table;
+          content: " ";
+        }
+        .container-fluid:after,
+        .row:after {
+          clear: both;
+        }
+
+        .col-lg-4, .col-lg-8, .col-lg-12 {
+          position: relative;
+          min-height: 1px;
+          padding-right: 16px;
+          padding-left: 16px;
+          padding-top: 11px;
+          padding-bottom: 11px;
+        }
+        .col-lg-4, .col-lg-8, .col-lg-12 {
+            float: left;
+          }
+        .col-lg-12 {
+            width: 100%;
+          }
+        .col-lg-4 {
+            width: 33.33333333%;
+          }
+        .col-lg-8 {
+            width: 66.66666667%;
+         }
+
+        .label { font-weight: bold }
+
+        .heading-1 { font-size: 22px; font-weight: bold;}
+        .heading-2 { font-size: 20px; font-weight: bold;}
+        .heading-3 { font-size: 18px; font-weight: bold;}
+    </style>
+    <bookmarks>
+
+
+
+        <bookmark name="add To List" href="#addToList">
+
+            <bookmark name="addToListShortName" href="#addToListShortName0"/>
+
+            <bookmark name="addToListShortName" href="#addToListShortName1"/>
+
+        </bookmark>
+
+
+
+    </bookmarks>
+</head>
+<body>
+<div class="container-fluid">
+
+
+    <div class="row">
+        <div class="col-lg-12 heading-1">
+            <p>some-pdf-header</p>
+        </div>
+    </div>
+
+
+
+
+    <div id="addToList">
+
+        <div id="addToListShortName0">
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    addToListShortName
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    page2Instruction
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4 label">
+
+                    page2FieldInstruction
+
+                </div>
+                <div class="col-lg-8">
+
+                    page2Field-value1<br/>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    page1Instruction
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4 label">
+
+                    page1FieldInstruction
+
+                </div>
+                <div class="col-lg-8">
+
+                    page1Field-value1<br/>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div id="addToListShortName1">
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    addToListShortName
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    page2Instruction
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4 label">
+
+                    page2FieldInstruction
+
+                </div>
+                <div class="col-lg-8">
+
+                    page2Field-value2<br/>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-12 heading-1">
+                    page1Instruction
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-4 label">
+
+                    page1FieldInstruction
+
+                </div>
+                <div class="col-lg-8">
+
+                    page1Field-value2<br/>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="row">
+        <div class="col-lg-12 heading-1">
+            <p>some-pdf-footer</p>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
